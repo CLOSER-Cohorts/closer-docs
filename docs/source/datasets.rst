@@ -8,6 +8,7 @@ The aim of this guide is to illustrate the workflow and details of variable meta
 Workflow
 
 This diagram illustrates the overall workflow of the project. It relies on four key technologies, CADDIES for the creation of questionnaire metadata, SledgeHammer to extract from datasets all the available metadata and MAPPER to create the links between them and add in topics that are consistent between the question(s) and variable(s) and Colectica Repository for storage and further manipulation.
+
 **Figure 1- CLOSER Project Workflow**
 
 .. |figure1| image:: _static/usp_production_process_overview.png
@@ -65,7 +66,7 @@ Command            Examples                    Explanation
 -stats             min, max, valid, invalid    Description of statistics generated per variable Optional: stddev and freq
 -opt               Always full                 Optimised output
 -scan              "No options"                Outputs metadata or entire full and includes no of cases and variables
-..                 ../bcs70/bcs_1970.sav       Name and path of input data file This is always the last line
+ ..                ../bcs70/bcs_1970.sav       Name and path of input data file This is always the last line
 ================== =========================== ========================================================================
 
 Batch File
