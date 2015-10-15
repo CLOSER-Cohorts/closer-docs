@@ -5,7 +5,9 @@ Overview
 ----------
 
 The aim of this guide is to illustrate the workflow and details of variable metadata capture for later use in the CLOSER Search Platform.
+
 Workflow
+---------
 
 This diagram illustrates the overall workflow of the project. It relies on four key technologies, CADDIES for the creation of questionnaire metadata, SledgeHammer to extract from datasets all the available metadata and MAPPER to create the links between them and add in topics that are consistent between the question(s) and variable(s) and Colectica Repository for storage and further manipulation.
 
